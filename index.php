@@ -48,7 +48,69 @@ if(isset($_POST['name'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Travel Form</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    font-size: 40px;
+}
+
+p {
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+}
+
+input,
+textarea {
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn {
+    color: white;
+    background: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.bg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.submitMsg {
+    color: green;
+}
 </head>
 <body>
     <img class="bg" src="bg.jpg" alt="IIT Kharagpur">
