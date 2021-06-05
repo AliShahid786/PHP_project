@@ -47,7 +47,8 @@ if(isset($_POST['name'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Travel Form</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap" rel="stylesheet"> 
+    <style>
     * {
     margin: 0px;
     padding: 0px;
@@ -111,6 +112,7 @@ form {
 .submitMsg {
     color: green;
 }
+    </style>
 </head>
 <body>
     <img class="bg" src="bg.jpg" alt="IIT Kharagpur">
