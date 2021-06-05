@@ -115,7 +115,7 @@ form {
     </style>
 </head>
 <body>
-    <img class="bg" src="bg.jpg" alt="IIT Kharagpur">
+   
     <div class="container">
         <h1>Welcome to IIT Kharagpur US Trip form</h3>
         <p>Enter your details and submit this form to confirm your participation in the trip </p>
